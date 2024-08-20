@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Produk - CarokMart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+        }
+        header .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .product-details {
+            margin-top: 20px;
+        }
+        .product-details img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-details .price {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .product-details .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="rafek.html" class="navbar-brand">CarokMart</a>
+            <div>
+                <a href="#" class="btn btn-outline-light">Login</a>
+                <a href="#" class="btn btn-light text-primary">Sign up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Details Section -->
+    <div class="container product-details">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="C:\img\paket razer.jpg" alt="Product Image">
+            </div>
+            <div class="col-md-6">
+                <h2>Diskon Spesial!!!</h2>
+                <h2>Beli Paket Razer diskon 50%<h2>
+                <p class="price">IDR 5.400.000</p>
+                <p class="description">Dapatkan dalam satu paket : Razer BlackWidow Chroma V2 RGB Mechanical Gaming Keyboard,
+ Razer DeathAdder Elite,
+ Razer Kraken 7.1 V2 Chroma, 
+Razer Firefly Gaming Mouse Mat with RGB LED.
+</p>
+                <div>
+                   <label for="quantity" class="form-label">Jumlah:</label>
+                    <input type="number" id="quantity" class="form-control w-25" value="1">
+                </div>
+                <button class="btn btn-primary mt-3">Tambahkan ke Keranjang</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Products Section -->
+    <div class="container mt-5">
+        <h3>Produk Terkait</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\razer laptop.jpg" class="card-img-top" alt="Pertamax">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">IDR 19.499.000</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 CarokMart. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarokMart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+        }
+        header .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .promo-section {
+            background-color:#C0C0C0;
+            color: #000000;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .promo-section h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .promo-section p {
+            font-size: 18px;
+            margin: 0;
+        }
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-img-top {
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .card-text {
+            font-size: 16px;
+            color: #555;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        /* Slideshow CSS */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+        }
+        .slides {
+            display: none;
+            text-align: center;
+        }
+        .active-slide {
+            display: block;
+        }
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="rafek.html" class="navbar-brand">CarokMart</a>
+            <div>
+                <a href="#" class="btn btn-outline-light">Login</a>
+                <a href="#" class="btn btn-light text-primary">Sign up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Produk Section -->
+    <div class="container">
+        <div class="row">
+            <!-- Produk 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\pertalite.png" class="card-img-top" alt="Pertalite">
+                    <div class="card-body">
+                        <h5 class="card-title">Pertalite 1L</h5>
+                        <p class="card-text">IDR 10.000</p>
+                        <a href="rafek-2.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk 2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\pertamax 92.png" class="card-img-top" alt="Pertamax">
+                    <div class="card-body">
+                        <h5 class="card-title">Pertamax 1L</h5>
+                        <p class="card-text">IDR 12.500</p>
+                        <a href="rafek-3.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk 3 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\pertamax t.jpg" class="card-img-top" alt="Pertamax Turbo">
+                    <div class="card-body">
+                        <h5 class="card-title">Pertamax Turbo 1L</h5>
+                        <p class="card-text">IDR 15.000</p>
+                        <a href="rafek-4.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk 4 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\sunco.jpg" class="card-img-top" alt="Sunco">
+                    <div class="card-body">
+                        <h5 class="card-title">Sunco 1L</h5>
+                        <p class="card-text">IDR 13.500</p>
+                        <a href="rafek-5.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promo Section dengan Slideshow -->
+        <section class="promo-section">
+            <div class="slideshow-container">
+                <!-- Slide 1 -->
+                <div class="slides active-slide">
+                    <h2>Hot Deals!!!</h2>
+                    <p>Beli Pertamax Turbo 300L dapat free 1 Lamborghini</p>
+                    <img src="C:\img\aventador.jpg" class="card-img-right" alt="Pertamax Turbo">
+                    <br>
+                    <a href="rafek-hd.html" class="btn">Lihat Detail</a>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slides">
+                    <h2>Diskon Spesial!!!</h2>
+                    <p>Beli Paket Razer diskon 50%</p>
+                    <img src="C:\img\paket razer.jpg" class="card-img-right" alt="Gadget Sale">
+                    <br>
+                    <a href="rafek-razer.html" class="btn">Lihat Penawaran</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="row mt-3">
+            <!-- Produk 5 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\lpg.jpg" class="card-img-top" alt="LPG 3KG">
+                    <div class="card-body">
+                        <h5 class="card-title">LPG 3KG</h5>
+                        <p class="card-text">IDR 21.000</p>
+                        <a href="rafek-6.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk 6 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\12kg.jpg" class="card-img-top" alt="LPG 12KG">
+                    <div class="card-body">
+                        <h5 class="card-title">LPG 12KG</h5>
+                        <p class="card-text">IDR 100.000</p>
+                        <a href="rafek-7.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk 7 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\indomie.jpg" class="card-img-top" alt="Indomie">
+                    <div class="card-body">
+                        <h5 class="card-title">Indomie All Var</h5>
+                        <p class="card-text">IDR 3.500/pack</p>
+                        <a href="rafek-8.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk 8 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="C:\img\razer laptop.jpg" class="card-img-top" alt="Razer Blade 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">IDR 19.499.000</p>
+                        <a href="rafek-9.html" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 CarokMart. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Button Toolbar -->
+    <div class="btn-toolbar fixed-bottom" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript untuk Slideshow
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active-slide");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].classList.add("active-slide");
+            setTimeout(showSlides, 5000); // Ganti slide setiap 5 detik
+        }
+    </script>
+</body>
+</html>
